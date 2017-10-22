@@ -9,4 +9,6 @@ target ‘Memery’ do
     pod 'ReactiveCocoa'
     pod 'DACircularProgress'
     pod 'Cartography'
+    pod 'RxSwift', '~> 4.0'
+    pod 'RxCocoa', '~> 4.0'
 end

@@ -11,6 +11,9 @@ PODS:
   - ReactiveSwift (2.0.1):
     - Result (~> 3.2)
   - Result (3.2.3)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
   - SwiftyJSON (3.1.4)
   - XCGLogger (5.0.1):
     - XCGLogger/Core (= 5.0.1)
@@ -23,6 +26,8 @@ DEPENDENCIES:
   - DACircularProgress
   - EZSwiftExtensions
   - ReactiveCocoa
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
   - SwiftyJSON
   - XCGLogger (~> 5.0.1)
 
@@ -35,9 +40,11 @@ SPEC CHECKSUMS:
   ReactiveCocoa: cf6595131c832c468fe3f84a2d7f74ed68eb3058
   ReactiveSwift: 60a29ff35988a964fd2bb759755cb6594de523fc
   Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   XCGLogger: 0b43697155d41e4a1b15fc776f319c2141646b09
 
-PODFILE CHECKSUM: 02d4eb026d52de369a736aa960e2640f6827ee26
+PODFILE CHECKSUM: 3342f9cbfa5dd7b458c381504771c8153c2f80b3
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1

@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3A1C336D1F7372A7002CCE11 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A1C336C1F7372A6002CCE11 /* content.json */; };
-		3AA6C05D1F8B1EAE000BDD3A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6C05C1F8B1EAE000BDD3A /* PhotosViewController.swift */; };
-		3AA6C05F1F8B21C6000BDD3A /* PhotosHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6C05E1F8B21C6000BDD3A /* PhotosHelper.swift */; };
-		3AA6C0611F8B407F000BDD3A /* PhotosTimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6C0601F8B407F000BDD3A /* PhotosTimeLineCell.swift */; };
-		3AA6C0631F8B596A000BDD3A /* PhotosTimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6C0621F8B596A000BDD3A /* PhotosTimeLineView.swift */; };
 		3ABD38FB1F6E82120098049F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD38FA1F6E82120098049F /* AppDelegate.swift */; };
 		3ABD39001F6E82130098049F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABD38FE1F6E82130098049F /* Main.storyboard */; };
 		3ABD39021F6E82130098049F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABD39011F6E82130098049F /* Assets.xcassets */; };
@@ -24,15 +20,16 @@
 		3ABD39261F7253240098049F /* CTFrameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD39251F7253240098049F /* CTFrameParser.swift */; };
 		3ABD392A1F7255700098049F /* CTFrameTextData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABD39291F7255700098049F /* CTFrameTextData.swift */; };
 		79D91A13FE1C3AC543A1BE58 /* Pods_Memery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB78D0672A3C08DB06DC6D26 /* Pods_Memery.framework */; };
+		882FC2361F9C474200D075C8 /* PhotosHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FC2321F9C474200D075C8 /* PhotosHelper.swift */; };
+		882FC2371F9C474200D075C8 /* PhotosTimeLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FC2331F9C474200D075C8 /* PhotosTimeLineCell.swift */; };
+		882FC2381F9C474200D075C8 /* PhotosTimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FC2341F9C474200D075C8 /* PhotosTimeLineView.swift */; };
+		882FC2391F9C474200D075C8 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FC2351F9C474200D075C8 /* PhotosViewController.swift */; };
+		882FC23C1F9C483D00D075C8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FC23B1F9C483D00D075C8 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28C64FE0EAA982A8D1DD4603 /* Pods-Memery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memery.release.xcconfig"; path = "Pods/Target Support Files/Pods-Memery/Pods-Memery.release.xcconfig"; sourceTree = "<group>"; };
 		3A1C336C1F7372A6002CCE11 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
-		3AA6C05C1F8B1EAE000BDD3A /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = Memery/Photo/PhotosViewController.swift; sourceTree = SOURCE_ROOT; };
-		3AA6C05E1F8B21C6000BDD3A /* PhotosHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosHelper.swift; path = Memery/Photo/PhotosHelper.swift; sourceTree = SOURCE_ROOT; };
-		3AA6C0601F8B407F000BDD3A /* PhotosTimeLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosTimeLineCell.swift; path = Memery/Photo/PhotosTimeLineCell.swift; sourceTree = SOURCE_ROOT; };
-		3AA6C0621F8B596A000BDD3A /* PhotosTimeLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosTimeLineView.swift; path = Memery/Photo/PhotosTimeLineView.swift; sourceTree = SOURCE_ROOT; };
 		3ABD38F71F6E82120098049F /* Memery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABD38FA1F6E82120098049F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABD38FF1F6E82130098049F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +44,11 @@
 		3ABD39251F7253240098049F /* CTFrameParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFrameParser.swift; sourceTree = "<group>"; };
 		3ABD39291F7255700098049F /* CTFrameTextData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTFrameTextData.swift; sourceTree = "<group>"; };
 		69BCD339B92E1F61888EB8C9 /* Pods-Memery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Memery/Pods-Memery.debug.xcconfig"; sourceTree = "<group>"; };
+		882FC2321F9C474200D075C8 /* PhotosHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosHelper.swift; sourceTree = "<group>"; };
+		882FC2331F9C474200D075C8 /* PhotosTimeLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTimeLineCell.swift; sourceTree = "<group>"; };
+		882FC2341F9C474200D075C8 /* PhotosTimeLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosTimeLineView.swift; sourceTree = "<group>"; };
+		882FC2351F9C474200D075C8 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		882FC23B1F9C483D00D075C8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CB78D0672A3C08DB06DC6D26 /* Pods_Memery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,17 +81,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3AA6C05B1F8B1E7A000BDD3A /* Photo */ = {
-			isa = PBXGroup;
-			children = (
-				3AA6C05C1F8B1EAE000BDD3A /* PhotosViewController.swift */,
-				3AA6C05E1F8B21C6000BDD3A /* PhotosHelper.swift */,
-				3AA6C0601F8B407F000BDD3A /* PhotosTimeLineCell.swift */,
-				3AA6C0621F8B596A000BDD3A /* PhotosTimeLineView.swift */,
-			);
-			path = Photo;
-			sourceTree = SOURCE_ROOT;
-		};
 		3ABD38EE1F6E82120098049F = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +102,8 @@
 		3ABD38F91F6E82120098049F /* Memery */ = {
 			isa = PBXGroup;
 			children = (
-				3AA6C05B1F8B1E7A000BDD3A /* Photo */,
+				882FC23A1F9C482600D075C8 /* Profile */,
+				882FC2311F9C474200D075C8 /* Photo */,
 				3ABD391E1F724D6D0098049F /* Magazine */,
 				3ABD38FA1F6E82120098049F /* AppDelegate.swift */,
 				3ABD38FE1F6E82130098049F /* Main.storyboard */,
@@ -135,6 +127,25 @@
 				3ABD39251F7253240098049F /* CTFrameParser.swift */,
 			);
 			path = Magazine;
+			sourceTree = "<group>";
+		};
+		882FC2311F9C474200D075C8 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				882FC2321F9C474200D075C8 /* PhotosHelper.swift */,
+				882FC2331F9C474200D075C8 /* PhotosTimeLineCell.swift */,
+				882FC2341F9C474200D075C8 /* PhotosTimeLineView.swift */,
+				882FC2351F9C474200D075C8 /* PhotosViewController.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		882FC23A1F9C482600D075C8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				882FC23B1F9C483D00D075C8 /* LoginViewController.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,13 +227,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memery-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9067FF5F46B6AB96451FDDF4 /* [CP] Copy Pods Resources */ = {
@@ -246,9 +260,34 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Memery/Pods-Memery-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -262,18 +301,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA6C05D1F8B1EAE000BDD3A /* PhotosViewController.swift in Sources */,
 				3ABD39211F724D6D0098049F /* MagazineDisplayView.swift in Sources */,
 				3ABD38FB1F6E82120098049F /* AppDelegate.swift in Sources */,
-				3AA6C0611F8B407F000BDD3A /* PhotosTimeLineCell.swift in Sources */,
 				3ABD39221F724D6D0098049F /* MagazineViewController.swift in Sources */,
+				882FC2371F9C474200D075C8 /* PhotosTimeLineCell.swift in Sources */,
 				3ABD39261F7253240098049F /* CTFrameParser.swift in Sources */,
 				3ABD390F1F6FAF5C0098049F /* GridViewCell.swift in Sources */,
-				3AA6C05F1F8B21C6000BDD3A /* PhotosHelper.swift in Sources */,
+				882FC2381F9C474200D075C8 /* PhotosTimeLineView.swift in Sources */,
 				3ABD39241F724F060098049F /* CTFrameParserConfig.swift in Sources */,
 				3ABD39111F70CECA0098049F /* MemeryViewController.swift in Sources */,
-				3AA6C0631F8B596A000BDD3A /* PhotosTimeLineView.swift in Sources */,
+				882FC2391F9C474200D075C8 /* PhotosViewController.swift in Sources */,
 				3ABD392A1F7255700098049F /* CTFrameTextData.swift in Sources */,
+				882FC23C1F9C483D00D075C8 /* LoginViewController.swift in Sources */,
+				882FC2361F9C474200D075C8 /* PhotosHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
